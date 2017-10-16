@@ -1,0 +1,7 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile F:/xampp/htdocs/test_htaccess1/.htpasswd
+AuthGroupFile /dev/null 
+<Files index.php>
+require valid-user
+</Files>
